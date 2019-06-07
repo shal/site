@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<details>
+  <summary><h2 class="as-text">Work</h2></summary>
+  <ul class="list list-items">
+    <li>
+      2018 ~ Backend Engineer at <mark><a href="https://openware.com/">OpenWare</a></mark>
+      <div class="small">
+        previously DevOps &amp; ROR Engineer at <mark><a href="https://rubykube.io/">RubyKube</a></mark> (~ 2017)
+      </div>
+    </li>
+  </ul>
+</details>
+
+<details>
+  <summary><h2 class="as-text">Fun facts</h2></summary>
+  <ul class="list list-items">
+    <li>🇺🇦 Based in Kyiv, Ukraine</a></li>
+    <li>🎓 Majored in <mark><a href="https://www.knu.com.ua/computer-science/">Computer Science</a></mark></li>
+    <li>🚴 Loves cycling and swimming 🏊</a></li>
+    <li>🔬 Blockchain Enthusiast</a></li>
+    <li>⚡ Addicted to speed</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary><h2 class="as-text">Contacts</h2></summary>
+  <ul class="list list-items">
+    <li>
+      <mark><a href="https://github.com/shal" rel="me">GitHub</a></mark>,
+      <mark><a href="https://instagram.com/ashanaakh" rel="me">Instagram</a></mark>
+      <mark><a href="https://t.me/ashanaakh" rel="me">Telegram</a></mark>
+    </li>
+    <li><mark><a href="/cv.pdf">Curriculum Vitae</a></mark></li>
+    <li>Email is hi@shal.dev</li>
+  </ul>
+</details>
+
+<details>
+    <summary><h2 class="as-text">Posts</h2> <a class="small" href="/feed.xml">[feed]</a></summary>
+    <ul class="list list-items">
+      {% for post in site.posts %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+          <time>{{ post.date | date: "%b %d, %Y" }}</time>
+        </li>
+      {% endfor %}
+    </ul>
+</details>

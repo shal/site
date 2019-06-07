@@ -1,0 +1,8 @@
+title:            Ali Shanaakh
+description:      About me & Blog
+url:              https://shal.dev
+permalink:        pretty
+timezone:         Europe/Kyiv
+sass:
+  sass_dir: assets
+  style: :compressed
